@@ -1,0 +1,7 @@
+@startuml house-interface
+interface House {
+   getWater()
+   getFood()
+   getEnergy()
+}
+@enduml

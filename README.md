@@ -32,20 +32,28 @@ Shared infrastructure components would vary from village-to-village based on uni
 * Plumbing and waste-water treatment center (performed ecologically using centralized bio-gas digestion)
 
 ## Resources
-A **resource** is defined as something humans need to live. A distinction is made between two kinds of resources: *primary* and *secondary* resources.
+A **resource** is defined as something humans need to live. A distinction is made between three kinds of resources: *primary*, *secondary*, and *tertiary* resources.
 
 A **primary resource** is defined as a non-negotiable human requirement for survival, and includes (in order of importance):
 
 1. 💧 Water
 2. 🌱 Food
-3. 🏠 Shelter
 
-A **secondary resource** is defined as a negotiable requirement for a desired standard of living. For example, a desired *modern* standard of living might require the following secondary resources:
+A **secondary resource** is defined as a non-negotiable requirement for survival because a human depends upon it for the attainment of a *primary resource*.
 
+Examples may include:
+
+* 🏠 Shelter
 * ⚡ Energy
-* 🌐 Internet
 
-Secondary resources should be configurable to meet the needs of different villages and people.
+Where you depend upon your shelter for collecting, storing, and purifying rain-water, or depend upon energy for heating a greenhouse in winter for growing food.
+
+A **tertiary resource** is defined as a negotiable requirement for a desired standard of living. For example, a desired *modern* standard of living might require the following tertiary resources:
+
+* 🌐 Internet
+* 🚗 Transportation
+
+Secondary and tertiary resources should be configurable to meet the needs of different villages and people.
 
 
 ## I/O

@@ -13,12 +13,6 @@ interface EnergySource {
 }
 
 interface House extends WaterSource, FoodSource, EnergySource {
-   + getWater()
-   + getFood()
-   + getEnergy()
-}
-
-class MidWesternHouse implements House {
    - WaterSource[] waterSources
    - FoodSource[] foodSources
    - EnergySource[] energySources
@@ -28,19 +22,31 @@ class MidWesternHouse implements House {
    + getEnergy()
 }
 
+class MidWesternHouse implements House {
+   - WaterSource[] waterSources
+   - FoodSource[] foodSources
+   - EnergySource[] energySources
+
+   + MidWesternHouse(waterSources, foodSources, energySources)
+   
+   + getWater()
+   + getFood()
+   + getEnergy()
+}
+
 ' Responsible for the collection, storage, and purification of rain-water
 class RainWaterHarvester  << (M,#FF7700) >> implements WaterSource {
-   + getWater()
+   + getWater(rainWater)
 }
 
 
 class AquaponicGreenHouse << (M,#FF7700) >> implements FoodSource {
-   + getFood()
+   + getFood(sunlight, fishFood)
 }
 
 
 class SolarPanelArray << (M,#FF7700) >> implements EnergySource {
-   + getEnergy()
+   + getEnergy(sunlight)
 }
 
 MidWesternHouse ..> RainWaterHarvester

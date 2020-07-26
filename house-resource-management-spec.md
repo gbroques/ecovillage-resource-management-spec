@@ -1,7 +1,7 @@
 # House Resource Management Spec
 
 * [Introduction](#introduction)
-* [I/O](#i-o)
+* [I/O](#io)
 * [Events](#events)
 * [Principles](#principles)
 

@@ -2,7 +2,7 @@
 
 * [Introduction](#introduction)
 * [Resources](#resources)
-* [I/O](#i-o)
+* [I/O](#io)
 * [Goals](#goals)
 * [Principles](#principles)
 

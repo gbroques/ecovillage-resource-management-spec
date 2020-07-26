@@ -52,7 +52,11 @@ Secondary resources should be configurable to meet the needs of different villag
 Village components can be defined in terms of I/O, or **inputs** and **outputs**.
 
 ### Inputs
-Inputs are unique to a geographic location or bio-region, and result in resource generation.
+Inputs result in **resource generation**.
+
+Some inputs are universal, such as sunlight ☀️. Although, the amount of that input will vary based on location and may be insufficient for requisite resource generation.
+
+Other inputs are unique to a geographic location or bio-region.
 
 For example, in the mid-west of the United States, an input to a house may be **rain-water**.
 
@@ -61,7 +65,7 @@ The house would have a rain-water harvesting sub-component that adapts the **inp
 Other geographic locations may have different inputs that lead to water resource generation such as ground-water, salt-water, river-water, glacier-water, or spring-water -- and each water input would need a different sub-component to adapt it to a water resource ready for human consumption.
 
 ### Outputs
-* Human waste
+* Human waste 💩
 * are there others we care to model?
 
 ## Goals

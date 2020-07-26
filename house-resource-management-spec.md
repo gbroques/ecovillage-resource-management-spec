@@ -2,7 +2,8 @@
 
 * [Introduction](#introduction)
 * [I/O](#i-o)
-* [Introduction](#introduction)
+* [Events](#events)
+* [Principles](#principles)
 
 ## Introduction
 Specification of a program to manage the resources of a house in a cyclical closed-loop system.
@@ -44,6 +45,16 @@ Other geographic locations may have different inputs that lead to water resource
 ### Outputs
 * Human waste
 * are there others?
+
+## Events
+Certain events may occur in the house during simulation that require resources.
+
+For example, a human may:
+
+* drink water
+* eat food
+* shower or bathe
+* use their laptop computer
 
 ## Principles
 See [Village Resource Management Spec: Principles](./README.md#Principles).

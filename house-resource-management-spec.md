@@ -11,9 +11,9 @@ Sub-component of the [Ecovillage Resource Management Spec](./README.md).
 
 House resources are defined as:
 
-* Water
-* Food
-* Energy
+* 💧 Water
+* 🌱 Food
+* ⚡ Energy
 
 Thus, a `House`, in the software can be thought of as a generic **interface** with the following methods:
 

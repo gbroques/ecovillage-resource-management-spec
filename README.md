@@ -9,9 +9,9 @@ Specification of a program to manage the resources of a ecovillage in a cyclical
 
 Village resources are defined as:
 
-* Water
-* Food
-* Energy
+* 💧 Water
+* 🌱 Food
+* ⚡ Energy
 
 Village resources are provides by **village components**, primarily:
 

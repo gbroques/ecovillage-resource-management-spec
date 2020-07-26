@@ -2,6 +2,7 @@
 
 * [Introduction](#introduction)
 * [Resources](#resources)
+* [I/O](#i-o)
 * [Goals](#goals)
 * [Principles](#principles)
 
@@ -44,7 +45,24 @@ A **secondary resource** is defined as a negotiable requirement for a desired st
 * ⚡ Energy
 * 🌐 Internet
 
-Seondary resources should be configurable to meet the needs of different villages and people.
+Secondary resources should be configurable to meet the needs of different villages and people.
+
+
+## I/O
+Village components can be defined in terms of I/O, or **inputs** and **outputs**.
+
+### Inputs
+Inputs are unique to a geographic location or bio-region, and result in resource generation.
+
+For example, in the mid-west of the United States, an input to a house may be **rain-water**.
+
+The house would have a rain-water harvesting sub-component that adapts the **input** of rain-water to the **resource** of water.
+
+Other geographic locations may have different inputs that lead to water resource generation such as ground-water, salt-water, river-water, glacier-water, or spring-water -- and each water input would need a different sub-component to adapt it to a water resource ready for human consumption.
+
+### Outputs
+* Human waste
+* are there others we care to model?
 
 ## Goals
 * Assist in village planning.

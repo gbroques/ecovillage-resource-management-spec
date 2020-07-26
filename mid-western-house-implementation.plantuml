@@ -1,29 +1,46 @@
 @startuml mid-western-house-implementation
-interface House {
-   getWater()
-   getFood()
-   getEnergy()
+
+interface WaterSource {
+   + getWater()
+}
+
+interface FoodSource {
+   + getFood()
+}
+
+interface EnergySource {
+   + getEnergy()
+}
+
+interface House extends WaterSource, FoodSource, EnergySource {
+   + getWater()
+   + getFood()
+   + getEnergy()
 }
 
 class MidWesternHouse implements House {
-   getWater()
-   getFood()
-   getEnergy()
+   - WaterSource[] waterSources
+   - FoodSource[] foodSources
+   - EnergySource[] energySources
+   
+   + getWater()
+   + getFood()
+   + getEnergy()
 }
 
 ' Responsible for the collection, storage, and purification of rain-water
-class RainWaterHarvester << (M,#FF7700) >> {
-   getWater()
+class RainWaterHarvester  << (M,#FF7700) >> implements WaterSource {
+   + getWater()
 }
 
 
-class AquaponicGreenHouse << (M,#FF7700) >> {
-   getFood()
+class AquaponicGreenHouse << (M,#FF7700) >> implements FoodSource {
+   + getFood()
 }
 
 
-class SolarPanelArray << (M,#FF7700) >> {
-   getEnergy()
+class SolarPanelArray << (M,#FF7700) >> implements EnergySource {
+   + getEnergy()
 }
 
 MidWesternHouse ..> RainWaterHarvester

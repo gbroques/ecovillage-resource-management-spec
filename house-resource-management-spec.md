@@ -29,8 +29,6 @@ For example, a mid-western house.
 
 ![Mid-western House Implementation](./out/mid-western-house-implementation/mid-western-house-implementation.svg)
 
-**TODO:** In reality, a house would likely have *multiple* sources for any one resource. For example, energy may come from solar, wind, and bio-gas digestion. The above diagrams don't account for this yet. Expand this to `waterSources`, `foodSources`, and `energySources`?
-
 ## I/O
 A house can be defined in terms of I/O, or **inputs** and **outputs**.
 

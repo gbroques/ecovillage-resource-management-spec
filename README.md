@@ -1,6 +1,7 @@
 # Ecovillage Resource Management Spec
 
 * [Introduction](#introduction)
+* [Resources](#resources)
 * [Goals](#goals)
 * [Principles](#principles)
 
@@ -28,6 +29,22 @@ Shared infrastructure components would vary from village-to-village based on uni
 * A "common house", community spaces, or community center
 * Centralized village power and electrical grid (may feed into wider municipal grid)
 * Plumbing and waste-water treatment center (performed ecologically using centralized bio-gas digestion)
+
+## Resources
+A **resource** is defined as something humans need to live. A distinction is made between two kinds of resources: *primary* and *secondary* resources.
+
+A **primary resource** is defined as a non-negotiable human requirement for survival, and includes (in order of importance):
+
+1. 💧 Water
+2. 🌱 Food
+3. 🏠 Shelter
+
+A **secondary resource** is defined as a negotiable requirement for a desired standard of living. For example, a desired *modern* standard of living might require the following secondary resources:
+
+* ⚡ Energy
+* 🌐 Internet
+
+Seondary resources should be configurable to meet the needs of different villages and people.
 
 ## Goals
 * Assist in village planning.

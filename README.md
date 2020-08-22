@@ -88,7 +88,7 @@ The following principles should be observed by the system and guide overall desi
 Each principle is not mutually exclusive, and may tie into other principles.
 
 * **Universal**
-  * Applicable to any geographic location or unique bio-regions.
+  * Applicable to any geographic location and unique bio-region.
 * **Accessible**
   * Available to any person regardless of disability: deaf, blind, vision or hearing impaired, amputee.
 * **Low Cost**
@@ -96,4 +96,4 @@ Each principle is not mutually exclusive, and may tie into other principles.
 * **Global**
   * Applicable to any person, culture, or language in the world.
 * **Open Source**
-  * The code should be freely available and observe the four freedoms of open-source software.
+  * The code should be freely available and observe [the four freedoms of open-source software](https://en.wikipedia.org/wiki/Free_software#Definition_and_the_Four_Essential_Freedoms_of_Free_Software).

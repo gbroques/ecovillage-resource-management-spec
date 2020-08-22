@@ -17,7 +17,7 @@ Village resources are defined as:
 |🌱 Food|Joule|
 |⚡ Energy|Joule|
 
-Village resources are provides by **village components**, primarily:
+Village resources are provided by **village components**, primarily:
 
 * Houses
 * Shared Infrastructure
@@ -43,10 +43,8 @@ A **secondary resource** is defined as a non-negotiable requirement for survival
 
 Examples may include:
 
-* 🏠 Shelter
-* ⚡ Energy
-
-Where you depend upon your shelter for collecting, storing, and purifying rain-water, or depend upon energy for heating a greenhouse in winter for growing food.
+* 🏠 Shelter, when you depend upon your shelter for collecting, storing, and purifying rain-water
+* ⚡ Energy, when depend upon energy for heating a greenhouse in winter for growing food.
 
 A **tertiary resource** is defined as a negotiable requirement for a desired standard of living. For example, a desired *modern* standard of living might require the following tertiary resources:
 
@@ -55,9 +53,10 @@ A **tertiary resource** is defined as a negotiable requirement for a desired sta
 
 Secondary and tertiary resources should be configurable to meet the needs of different villages and people.
 
-
 ## I/O
-Village components can be defined in terms of I/O, or **inputs** and **outputs**.
+A village, as well as village components can be defined in terms of I/O, or **inputs** and **outputs**.
+
+This view lends the village and individual components to modeling by [material balance equations](https://en.wikipedia.org/wiki/Mass_balance).
 
 ### Inputs
 Inputs result in **resource generation**.
